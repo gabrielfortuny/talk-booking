@@ -1,0 +1,18 @@
+[project]
+name = "talk-booking"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = []
+
+[dependency-groups]
+dev = [
+    "bandit>=1.9.4",
+    "black>=26.1.0",
+    "flake8>=7.3.0",
+    "isort>=8.0.1",
+    "pytest>=9.0.2",
+    "pytest-cov>=7.0.0",
+    "safety>=3.7.0",
+]
